@@ -85,6 +85,12 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
+#volume
+bindsym $mod+Page_Up exec --no-startup-id amixer -q set Master 3%+ -q
+bindsym $mod+Page_Down exec --no-startup-id amixer -q set Master 3%- -q
+bindsym $mod+End exec --no-startup-id amixer -q set Master toggle
+
+
 # focus the child container
 #bindsym $mod+d focus child
 #finestre senza bordi
