@@ -1,6 +1,5 @@
 #!/bin/bash
-
- 
+#sostituire la cartella .arch con la cartella contente le immagini da usare come sfondi randomizzati
 
 while true; do
 
